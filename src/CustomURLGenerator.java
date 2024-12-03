@@ -6,14 +6,14 @@ import java.util.Map;
 public class CustomURLGenerator {
     public static void main(String[] args) throws UnsupportedEncodingException {
         // Hotel chains and cities
-        String[] hotels = {"Four Seasons", "Ritz-Carlton", "Park Hyatt", "St. Regis Hotel", "Waldorf Astoria Hotel"};
-        String[] cities = {"Las Vegas", "New York City", "Miami", "Paris", "Los Angeles"};
+        String[] hotels = {"Comfort Suites", "Marriott", "Park Hyatt", "Holiday Inn", "DoubleTree"};
+        String[] cities = {"Dallas", "New York City", "Miami", "Chicago", "Los Angeles"};
         Map<String, String> cityCodes = new HashMap<>();
-        cityCodes.put("Las Vegas", "550");
+        cityCodes.put("Dallas", "705");
         cityCodes.put("New York City", "633");
-        cityCodes.put("Miami", "430");
-        cityCodes.put("Paris", "1354");
-        cityCodes.put("Los Angeles", "1785");
+        cityCodes.put("Miami", "25773");
+        cityCodes.put("Chicago", "549");
+        cityCodes.put("Los Angeles", "347");
 
         // Base URL
         String baseUrl = "https://us.trip.com/hotels/list";

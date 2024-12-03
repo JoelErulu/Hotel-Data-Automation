@@ -24,7 +24,7 @@ Write a program that automatically stores and analyzes the price of hotel rooms 
 
 - Find 10 dates with the lowest price for a room in each of the hotels from each of the cities.
 - Analysis will be performed from current day to last day data is available.
-- Project must run without nonobvious errors
+- Project must run without non-obvious errors
 - Hotel data is stored in a SQLite DB
 - Find the dates with the lowest price for each hotel in each city (Submit in Word document)
 

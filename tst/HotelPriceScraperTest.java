@@ -23,11 +23,11 @@ public class HotelPriceScraperTest {
             // Navigate to the URL
             driver.get("https://us.trip.com/hotels/list?city=633&provinceId=0&countryId=66&checkin=2024%2F12%2F10&checkout=2024%2F12%2F11&listFilters=2~2~163*2*2~163*2%2C17~1*17*1*2%2C80~0~1*80*0*2:");
 
-            // Scrape hotel names using CSS selectors
+            // Scrape hotel price using CSS selectors
             List<WebElement> hotelLinks = driver.findElements(By.xpath("//*[@id=\"meta-real-price\"]/span/div"));
 
             boolean foundHotelPrice = false;
-            // Check if the specific hotel is in the list
+            // Check if the specific hotel price is in the list
             for (WebElement link : hotelLinks) {
                 String hotelPrice = link.getText();
 

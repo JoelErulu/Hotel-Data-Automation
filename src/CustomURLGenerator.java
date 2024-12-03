@@ -38,20 +38,18 @@ public class CustomURLGenerator {
             }
         }
     }
-    /**
-    Hotel Brands
-    Hilton
+     /**
+     Hotel Brands
+     Hilton
      Marriott
-    Hyatt
-    Holiday Inn (IHG)
-    Sheraton (part of Marriott)
-    Cities with These Brands
-    These brands are staples in most major U.S. cities:
+     Hyatt
+     Holiday Inn (IHG)
+     Sheraton (part of Marriott)
 
-    New York City, NY
+     New York City, NY
      Chicago, IL
-    Los Angeles, CA
-    Atlanta, GA
+     Los Angeles, CA
+     Atlanta, GA
      Dallas, TX
      **/
 }

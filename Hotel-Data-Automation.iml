@@ -36,5 +36,6 @@
     </orderEntry>
     <orderEntry type="library" exported="" name="xerial.sqlite.jdbc" level="project" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="github.eikek.emil.jsoup_2.12" level="project" />
   </component>
 </module>

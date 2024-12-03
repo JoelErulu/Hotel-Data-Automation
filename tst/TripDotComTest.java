@@ -38,8 +38,8 @@ public class TripDotComTest {
             inputField.sendKeys("Las Vegas");
 
             //TODO: Eventually do statement to select specific days.
-            WebElement searchButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"searchBoxCon\"]/div/div/div/div/div[3]/i")));
-            searchButton.click();
+          //  WebElement searchButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"searchBoxCon\"]/div/div/div/div/div[3]/i")));
+          //  searchButton.click();
 
             // Locate and click the search button
             WebElement searchButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='searchBoxCon']//button")));
